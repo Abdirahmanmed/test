@@ -1,0 +1,75 @@
+body{
+	display: flex;
+	flex-direction: column;
+	padding: 0;
+	margin: 0;
+	/*margin-bottom: 20px;*/
+}
+nav{
+	display: flex;
+	height: 100px;
+	/*width: 100%;*/
+	/*border: 2px solid black;*/
+	margin-bottom: 10px;
+	background-color: rgb(0, 100, 0);
+	background-attachment: fixed;
+	color: white;
+
+
+}
+.ul ul a li:hover{
+	color: red;
+	background-color: white;
+}
+.head{
+	height: 90%;
+	/*border: 1px solid black;*/
+	margin: 10px;
+	margin-top: 0;
+	flex-grow: 2;
+	padding: 5px;
+}
+.ul li{
+	list-style: none;
+	text-align: center;
+	margin: 20px;
+	margin-left: 50px;
+}
+.ul ul{
+	display: inline-flex;
+	height: 90%;
+	/*border: 1px solid black;*/
+	margin-top: 0;
+	flex-wrap: wrap;
+
+
+ 
+}
+.ul ul a li{
+	color: white;
+	border-bottom: 1px solid darkblue;
+
+
+}
+nav .ul ul a li :hover{
+	color: cyan;
+	border-bottom: 1px solid red;
+
+
+}
+section{
+	height: 900px;
+	width: 100%;
+	/*border: 2px solid black;*/
+	margin-bottom: 1s0px;
+	background-image: url('../abdirahman/jexo-yVxUC9I9Cik-unsplash.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+footer{
+	height: 100px;
+	width: 100%;
+	/*border: 2px solid black;*/
+	background-color: rgb(05, 0.5, 0.5);
+}
