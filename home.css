@@ -64,7 +64,7 @@ section{
 	margin-bottom: 1s0px;
 	background-image: url('jexo-yVxUC9I9Cik-unsplash.jpg');
 	background-repeat: no-repeat;
-	background-attachment: fixed;
+	/* background-attachment: fixed; */
 	background-size: cover;
 }
 footer{

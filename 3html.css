@@ -13,7 +13,7 @@ body{
 }
 .tete{
 	display: flex;
-	border: 2px solid rgb(0, 520, 0);
+	/*border: 2px solid rgb(0, 520, 0);*/
 	height: 200px;
 	width: 100%;
 	margin: 10px;
@@ -22,13 +22,13 @@ header{
 	color: white;
 	height: 50%;
 	width: 50%;
-	border: 2px solid rgb(0, 0, 620);
-	margin: 6px;
+	/*border: 2px solid rgb(0, 0, 620);*/
+	margin: 10px;
 }
 nav{
 	height: 50%;
 	width: 50%;
-	border: 2px solid rgb(0, 0, 620);
+	/*border: 2px solid rgb(0, 0, 620);*/
 	margin: 10px;
 	padding: 5px;
 }
