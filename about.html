@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrey Technologie</title>
+    <link rel="stylesheet" href="about.css">
+    <link href="https://fonts.googleapis.com/css3?
+	family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="block1">
+        <nav>
+			<img src="img/logo.png" alt="Logo">
+			<div class="nav-links" id="navlinks">
+                <i class="fa fa-window-close" onclick="hidemenu() "></i>
+                    <ul>
+                        <li><a href="index.html">ACCUEIL</a></li>
+                        <li><a href="form.html">FORMATION</a></li>
+                        <li><a href="about.html">A PROPOS</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+			</div>
+                <i class="fa fa-bars" onclick="showmenu() "></i>
+		</nav>
+        <div class="text-box">
+			<h1>A PROPOS DE NOUS</h1>	 
+		</div>
+        <script>
+            var navlinks = document.getElementById("navlinks");
+            function showmenu(){
+                navlinks.style.right = "0";
+            }
+            function hidemenu(){
+                navlinks.style.right = "-200px";
+            }
+        </script>
+    </section>
+    <section class="block2">		 
+		<div class="row">
+			<div class="course-col">
+                <h1>
+                    On est l'un des plus grand etablissement des formation
+                    a <strong>Djibouti</strong>
+                </h1>
+                <br>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    <br> Dolore minus repudiandae eligendi totam inventore a rerum
+                    <br> commodi! Nesciunt vitae neque mollitia, dicta, nisi 
+                    <br>quia fugit asperiores alias vero perspiciatis beatae.
+                    <br> Dolore minus repudiandae eligendi totam inventore a rerum
+                    <br> commodi! Nesciunt vitae neque mollitia, dicta, nisi 
+                    <br>quia fugit asperiores alias vero perspiciatis beatae.
+                    <br> Dolore minus repudiandae eligendi totam inventore a rerum
+                </p>
+                <a href="#" class="hero-btn">Explorer Matenant</a>
+			</div>
+            <Br></Br>
+			<div class="course-col">
+				<img src="img/four.jpg" height="400px" width="500px">
+			</div>
+    </section>
+    <section class="block3">
+		<h4>A propos de nous</h4>
+		<p>
+			<Strong>Arrey Technologie</Strong> est une ecole prive qui a pour but,d'enseigner ou donner des formations
+			a haut qualite aux <br> jeunes djiboutiens a savoir la programmation web, la maintenance informatique, la formation
+			bureautique, <br> installation de camera et reseau informatique          
+		</p>
+		<div class="icons">
+			<i class="fa fa-facebook"></i>
+			<i class="fa fa-twitter"></i>
+			<i class="fa fa-instagram"></i>
+			<i class="fa fa-linkedin"></i>
+		</div>
+		<pre>@CopytightByAbdoulkader</pre>
+	</section>
+</body>
+</html>

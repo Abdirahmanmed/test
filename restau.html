@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrey Technologie</title>
+    <link rel="stylesheet" href="restau.css">
+	<link href="https://fonts.googleapis.com/css3?
+	family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet" >
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="block1">
+		<nav>
+			<img src="img/logo.jpg" alt="Logo">
+			<div class="nav-links" id="navlinks">
+				<i class="fa fa-window-close" onclick="hidemenu() "></i>
+					<ul>
+						<li><a href="index.html">ACCUEIL</a></li>
+						<li><a href="#">MENU</a></li>
+						<li><a href="#">A PROPOS</a></li>
+						<li><a href="#">CONTACT</a></li>
+					</ul>
+			</div>
+			    <i class="fa fa-bars" onclick="showmenu() "></i>
+		</nav>
+		<div class="text-box">
+			<h1>CHEZ NOUS COMME CHEZ VOUS</h1>
+			<p>
+				Bienvenue sur le site web de <strong>Cafe & restaurant A LA VOTRE</strong>,<br>ici vous allez 
+				trouver toutes les RECETTES les plus demander sur notre restaurant <br>
+				 efficase qui va vous permettre de s'adapter<br>facilement dans l'environnement de travail.
+			</p>
+			<a href="#" class="hero-btn">SAVOIR PLUS</a>
+		</div>
+	</section>
+	<script>
+		var navlinks = document.getElementById("navlinks");
+		function showmenu(){
+			navlinks.style.right = "0";
+		}
+		function hidemenu(){
+			navlinks.style.right = "-200px";
+		}
+	</script>
+
+	<section class="block2">
+
+		<h1>Les reccetes</h1>
+		<p>
+			Voici quelques un des nos reccettes les plus demander
+		</p>
+		 
+		<div class="row">
+			<div class="course-col">
+
+				<img src="img/11.jpg" alt="graphic design" height="250px" width="250px">
+				<h3>Tacos</h3>
+				 
+			</div>
+			<div class="course-col">
+
+				<img src="img/47.jpg" alt="Programmation" height="250px" width="250px">
+				<h3>spaghetti</h3>
+				 
+			</div>
+			<div class="course-col">
+
+				<img src="img/33.jpg" alt="Maintenance" height="250px" width="250px">
+				<h3>poulet</h3>
+
+			</div>
+		</div>
+
+	</section>
+	<section class="block3">
+		<h1>Avis des clients</h1>
+		<p><strong>Cafe & restaurant A LA VOTRE</strong> est une restaurant p qui a pour
+			but principal de vous donner des Nutritions bien equilibre a haut qualite.
+		</p>
+		<div class="row">
+			<div class="testimonial-col">
+				<div class="one">
+					<img src="img/90.jpg" alt="Lola Daniel">
+					 <div class="two">
+						<p>
+							C'est une bonne idee que j'ai alle a <strong>Cafe & restaurant A LA VOTRE</strong>					car sa ma beaucoup aider a apprendre la programmation
+						</p>
+						<h3>Christin Berkley</h3>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-o"></i>
+					 </div>
+				</div>
+			</div>
+			<div class="testimonial-col">
+				<div class="one">
+					<img src="img/91.jpg" alt="Shiwayema Satoshi">
+						<div class="two">
+							<p>
+								Manger a <strong>ACafe & restaurant A LA VOTREe</strong> etait la meilleur decision 
+								que je pris . 
+							</p>
+							<h3>lola Satoshi</h3>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-half-o"></i>
+						</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="block4">
+		<h1>
+			les commandes sont rapide et de bonne qualite <br> Bienvenue.  
+		</h1>
+		<a href="#" class="hero-btn1">Contactez Nous</a>
+	</section>
+	<section class="block5">
+		<h4>A propos de nous</h4>
+		<p>
+			<Strong>Cafe & restaurant A LA VOTRE</Strong> est une restaurant qui a pour but,de fournir des aliments
+			a haut qualite aux <br> jeunes djiboutiens et un services des bonne qualite.          
+		</p>
+		<div class="icons">
+			<i class="fa fa-facebook"></i>
+			<i class="fa fa-twitter"></i>
+			<i class="fa fa-instagram"></i>
+			<i class="fa fa-linkedin"></i>
+		</div>
+		<pre>@CopytightByAbdourahman</pre>
+	</section>
+</body>
+</html>
