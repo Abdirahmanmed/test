@@ -102,25 +102,25 @@
 // document.write(semain+"  ");
 // document.write(tailler);
 // document.write("  "+ semain[2]);
-let fruit=["Mangue","Rasin","Figo","wiki","orange"];
-document.write("<br>");
-document.write(fruit)
-document.write("<br>");
-let fruit_client=prompt("veuillez saisir le fruit que vous desire!");
-document.write("les fruit que vous desire est "+fruit_client);
-let index =fruit.indexOf(fruit_client);
-document.write("<br>");
-document.write("l'indice "+fruit_client+" est " +index);
-document.write("<br>");
-let trouver=fruit_client=="Mangue"||fruit_client=="Rasin"||fruit_client=="Figo"||fruit_client=="wiki"||fruit_client=="orange"
-trouver?fruit.splice(index,1) : document.write("le fruit "+fruit_client+" n'est pas disponible");
-document.write("<br>");
-trouver?document.write("ok"):
-document.write("<br>");
+// let fruit=["Mangue","Rasin","Figo","wiki","orange"];
+// document.write("<br>");
+// document.write(fruit)
+// document.write("<br>");
+// let fruit_client=prompt("veuillez saisir le fruit que vous desire!");
+// document.write("les fruit que vous desire est "+fruit_client);
+// let index =fruit.indexOf(fruit_client);
+// document.write("<br>");
+// document.write("l'indice "+fruit_client+" est " +index);
+// document.write("<br>");
+// let trouver=fruit_client=="Mangue"||fruit_client=="Rasin"||fruit_client=="Figo"||fruit_client=="wiki"||fruit_client=="orange"
+// trouver?fruit.splice(index,1) : document.write("le fruit "+fruit_client+" n'est pas disponible");
+// document.write("<br>");
+// trouver?document.write("ok"):
+// document.write("<br>");
 
-document.write("<br>");
-document.write(fruit);
-document.write("<br>");
+// document.write("<br>");
+// document.write(fruit);
+// document.write("<br>");
 
 
 

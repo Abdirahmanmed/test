@@ -1,0 +1,14 @@
+.conteneur{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+button{
+    border: 1 solid black;
+    width: 100px;
+    height: 50px;
+    margin: 15px;
+}
+.contenu{
+    display: none;
+}
