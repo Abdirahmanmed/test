@@ -120,6 +120,8 @@ try{
 catch(e){
     alert(e)
 }
+// isNaN() est une fonction booleen qui permet de verifier si une donne entre par l'utlisateur n'est pas un nombre.
+                                                      
 
 
 
